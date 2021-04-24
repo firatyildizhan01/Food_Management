@@ -5,26 +5,27 @@
 <html>
 <head runat="server">
     <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+  
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="height:150px; width:700px; margin-left:300px; background-color: #CCFFFF;"ContentPlaceHolder1" runat="server"></div>
-        <div style="height:20px; width:700px; margin-left:300px; background-color: #FFFFFF;"ContentPlaceHolder1" runat="server"></div>
+
+        <div style="height:150px;  width:700px; margin-left:300px; background-color: #666633;"ContentPlaceHolder1" runat="server"></div>
+        <div>
+        <div style="height:20px;  width:700px; margin-left:300px; background-color: #FFFFFF;"ContentPlaceHolder1" runat="server"></div>
         <div style="height:20px; width:700px; margin-left:300px; background-color: #CCCCFF;"ContentPlaceHolder1" runat="server"></div>
         <div style="height:20px; width:700px; margin-left:300px; background-color: #FFFFFF;"ContentPlaceHolder1" runat="server"></div>
-        <div style="height:200px; width:200px; margin-left:300px;">
-             <div style="height:350px; width:400px; margin-left:250px;"</div> 
+        <div style="height:200px; width:200px; margin-left:300px; background-color: #CCFF66;">
+             <div style="height:350px; width:400px; margin-left:250px; background-color: #99CC00;"</div> 
         </div>
+           </div>
            
-           
-
+          <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
      
 
             
-            
-            <%--</asp:ContentPlaceHolder>--%>
+           
         
     </form>
 </body>
